@@ -26,31 +26,34 @@
   </head>
   <body>
 
-    <!-- header section -->
-    <header class="bg-[#192064] text-white p-5">
-      <nav class="container mx-auto flex justify-between items-center lg:text-xl">
-        <section class="flex space-x-6">
-            <img src="./assets/logo-3.png" alt="" class="">
-          <div class="space-x-3">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+    <!-- navbar -->
+    <nav class="bg-[#0e1133] py-6">
+      <section class="container mx-auto lg:px-24 px-8">
+        <div class="flex text-white justify-between">
+          <div class="flex justify-center items-center space-x-8">
+            <div>
+              <img src="./assets/logo-3.png" alt="">
+            </div>
+            <div class="space-x-4 text-lg font-semibold hidden lg:flex">
+              <a class="hover:text-orange-600 duration-300" href="#">Home</a>
+              <a class="hover:text-orange-600 duration-300" href="#">About</a>
+              <a class="hover:text-orange-600 duration-300" href="#">Blog</a>
+              <a class="hover:text-orange-600 duration-300" href="#">Contact</a>
+            </div>
           </div>
-        </section>
-        <section>
-          <button>Login</button>
-          <button class="bg-clifford px-3 py-2 rounded ml-2">Get Start</button>
-        </section>
-      </nav>
-    </header>
 
-    <!-- main section -->
-    <main></main>
+          <div class="space-x-6 hidden lg:flex">
+            <button class="text-xl font-semibold">Login</button>
+            <button class="bg-orange-600 rounded-md text-lg font-semibold px-6 py-3 hover:bg-transparent border-2 border-orange-600 duration-300">Get Start</button>
+          </div>
 
-    <!-- footer section -->
-    <footer></footer>
+          <div class="lg:hidden">
+            <img class="w-8" src="./assets/more.png" alt="">
+          </div>
 
+        </div>
+
+      </section>
+    </nav>
   </body>
 </html>
